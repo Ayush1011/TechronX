@@ -1,0 +1,112 @@
+.maindivA{
+    position: relative;
+    width: 100%;
+
+
+    background: #000000;
+
+    color: #fff;
+    height:200px;
+
+
+    display:flex;
+
+}
+.maindivA:after{
+
+    position: absolute;
+    width: 100%;
+
+    content: '';
+    background: #000000;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: top left;
+    transform: skewY(-176deg);
+
+}
+
+
+
+.maindivB{
+
+    width: 100%;
+
+
+    background: rgba(174, 185, 194, 0.18);
+
+    color: #111;
+    height:800px;
+
+
+    transform: skewY(4deg);
+
+    display:flex;
+
+}
+.maindivBI{
+
+    transform: skewY(-4deg);
+}
+
+.maindivc{
+
+
+
+
+
+    color: #111;
+
+    transform: skewY(4deg);
+
+    display:flex;
+
+}
+.maindivcI{
+
+    transform: skewY(-4deg);
+}
+
+
+
+
+
+
+
+
+
+.slantedDivA{
+      position: relative;
+      width: 100%;
+      margin-top: 80px;
+
+      background: black;
+      box-sizing: border-box;
+      color: #fff;
+      height:250px;
+
+  }
+
+.slantedDivA:after{
+    position: absolute;
+    width: 100%;
+
+    content: '';
+    background: inherit;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform-origin: top right;
+    transform: skewY(4deg);
+}
+
+
+ul#menu li {
+    display:inline;
+}
+

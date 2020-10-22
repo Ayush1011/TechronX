@@ -22,7 +22,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 
-
+import Container from '@material-ui/core/Container';
 export default class Homepage extends React.Component{
 
     constructor() {
@@ -33,7 +33,7 @@ export default class Homepage extends React.Component{
     render() {
 
         return(
-        <div>
+        <div style={{width:"100vm"}}>
 
 
 
@@ -41,7 +41,9 @@ export default class Homepage extends React.Component{
 
 
 
-            <Grid container spacing={0} style={{backgroundColor:'black',}}>
+            <Grid container wrap='wrap' style={{backgroundColor:'black',width:'100%'}}>
+
+
 
 
                 <Grid item xs={12} sm={3} style={{backgroundColor:'black',height:"80px"}}>
@@ -169,7 +171,6 @@ export default class Homepage extends React.Component{
 
 
 
-
             </Grid>
 
 
@@ -181,7 +182,7 @@ export default class Homepage extends React.Component{
 
 
 
-            <Grid container spacing={3}>
+            <Grid container >
 
 
 
@@ -229,7 +230,7 @@ export default class Homepage extends React.Component{
 
 
 
-            <Grid container spacing={3}>
+            <Grid container >
 
 
 
@@ -265,7 +266,7 @@ export default class Homepage extends React.Component{
 
 
 
-                <Grid container spacing={3}>
+                <Grid container >
 
 
 
@@ -309,7 +310,7 @@ export default class Homepage extends React.Component{
 
 
 
-                <Grid container spacing={3}>
+                <Grid container >
 
 
 
@@ -345,7 +346,7 @@ export default class Homepage extends React.Component{
 
 
 
-                    <Grid container spacing={3}>
+                    <Grid container >
 
 
 
@@ -416,8 +417,11 @@ export default class Homepage extends React.Component{
 
 
                 </Grid>
+
             </Grid>
+
         </div>
+
 
 
     )
