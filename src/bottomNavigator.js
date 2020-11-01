@@ -25,10 +25,10 @@ import logofoot from './images/logofooter.png'
 import {Container} from "@material-ui/core";
 import './divs.css'
 import TextTransition, {presets} from "react-text-transition";
-import watsapp from './images/watsapp.png'
-import facebook from './images/facebook.png'
-import twitter from './images/twitter.png'
 
+import {RiFacebookLine} from 'react-icons/ri';
+import {RiTwitterFill} from 'react-icons/ri';
+import {RiInstagramLine} from 'react-icons/ri';
 export default class BottomNavigator extends React.Component{
 
     constructor() {
@@ -49,7 +49,7 @@ export default class BottomNavigator extends React.Component{
 
 
 
-                <Grid item xs={12} sm={2} style={{alignItems:'center',justifyContent:'center',display:"flex",backgroundColor:'black'}}  >
+                <Grid item xs={12} sm={3} style={{alignItems:'center',justifyContent:'center',display:"flex",backgroundColor:'black'}}  >
 
 
                     <div style={{width:'70%'}}>
@@ -119,46 +119,21 @@ export default class BottomNavigator extends React.Component{
 
 
 
-                <Grid item xs={12} sm={2} style={{alignItems:'center',justifyContent:'flex-start',display:"flex",backgroundColor:'black'}}  >
-                    <div style={{width:'70%'}}>
-
-                        <div style={{width:"100%",fontSize:'15px'}} >
+                <Grid item xs={12} sm={1} style={{alignItems:'center',display:"flex",backgroundColor:'black'}}  >
 
 
+                    <ul id="menu" >
+                        <li ><RiTwitterFill/></li>
+                        <li ><RiFacebookLine/></li>
+                        <li ><RiInstagramLine/></li>
 
-
-
-                            <ul id="menu" style={{listStyleType:'none',}}>
-                                <li style={{fontWeight:'bold',margin: '0 0 3px 0'}}>
-
-                                </li>
-                                <li style={{marginRight:'3px'}}>
-                                    <img src={watsapp} style={{width:'50px',height:'40px'}}/>
-                                </li>
-                                <li style={{marginRight:'3px'}}>
-                                    <img src={facebook} style={{width:'50px',height:'50px'}}/>
-
-                                </li>
-                                <li style={{marginRight:'3px'}}>
-                                    <img src={twitter} style={{width:'40px',height:'40px'}}/>
-
-                                </li>
-
-                            </ul>
-
-
-
-                        </div>
-
-
-                    </div>
-
+                    </ul>
 
 
                 </Grid>
 
 
-                <Grid item xs={12} sm={3} style={{alignItems:'center',justifyContent:'center',display:"flex"}}  >
+                <Grid item xs={12} sm={2} style={{alignItems:'center',justifyContent:'center',display:"flex"}}  >
 
 
                 </Grid>

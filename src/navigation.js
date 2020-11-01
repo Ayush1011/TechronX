@@ -46,19 +46,26 @@ export default class Navi extends React.Component{
     render() {
         return (
            <Grid container>
-               <Grid item xs={12} sm={4} style={{backgroundColor:'black',height:"80px"}}>
+               <Grid item xs={12} sm={2} style={{backgroundColor:'black',height:"80px"}}>
 
 
 
 
 
-                   <div style={{height:"50px",}}>
+                   <div style={{height:"50px",display: 'flex', justifyContent: 'center', alignSelf: 'center',}}>
 
                        <img src={tech} style={{height:'100%'}} />
 
                    </div>
                </Grid>
+               <Grid item xs={12} sm={2} style={{backgroundColor:'black',height:"80px"}}>
 
+
+
+
+
+
+               </Grid>
 
 
                <Grid item xs={12} sm={2} style={{backgroundColor:'black',height:"80px"}}>
@@ -81,7 +88,24 @@ export default class Navi extends React.Component{
                </Grid>
 
 
+               <Grid item xs={12} sm={2} style={{backgroundColor:'black',height:"80px"}}>
 
+
+
+
+
+                   <div style={{height:"50px",}}>
+
+
+                       <h4 style={{color:"#fff",textDecoration:"none"}}>
+                           <Link to='/service' style={{color:"#fff",textDecoration:"none"}} >
+
+
+                               Services
+                           </Link>
+                       </h4>
+                   </div>
+               </Grid>
 
 
                <Grid item xs={12} sm={2} style={{backgroundColor:'black',height:"80px"}}>
@@ -114,34 +138,17 @@ export default class Navi extends React.Component{
 
 
                        <h4 style={{color:"#fff",textDecoration:"none"}}>
-                           <Link to='/about' style={{color:"#fff",textDecoration:"none"}} >
+                           <Link to='/home' style={{color:"#fff",textDecoration:"none"}} >
 
 
-                               About us
+                               Blogs
                            </Link>
                        </h4>
                    </div>
                </Grid>
 
 
-               <Grid item xs={12} sm={2} style={{backgroundColor:'black',height:"80px"}}>
 
-
-
-
-
-                   <div style={{height:"50px",}}>
-
-
-                       <h4 style={{color:"#fff",textDecoration:"none"}}>
-                           <Link to='/service' style={{color:"#fff",textDecoration:"none"}} >
-
-
-                              Services
-                           </Link>
-                       </h4>
-                   </div>
-               </Grid>
            </Grid>
         )
     }

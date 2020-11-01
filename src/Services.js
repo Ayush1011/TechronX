@@ -102,7 +102,8 @@ export default class Servies extends React.Component{
                             <Grid container s={6} xs={12}>
                                 <div style={{marginLeft:'10%',marginTop:'15%'}}>
                                     <h1 style={{color:'white',}}>
-                                        Contact Us
+                                        Our Services
+
                                     </h1>
 
 

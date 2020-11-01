@@ -29,6 +29,7 @@ import Navi from "./navigation";
 import Typing from "react-typing-animation";
 import intro from "./images/intro.gif";
 import contact from './images/contact.png'
+import about from "./images/about.png";
 export default class Contact extends React.Component{
 
 
@@ -116,8 +117,8 @@ constructor() {
                         <div style={{alignSelf:'center',justifyContent:'center',display: 'flex',marginTop:'5%'}}>
 
 
-                            <img src={contact} className="img-fluid" style={{alignSelf: 'center' ,width:'100%'}}
-                                 class="center"
+                            <img src={about} className="img-fluid" style={{alignSelf: 'center', width: '100%'}}
+                                 className="center"
 
 
                             />

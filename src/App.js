@@ -34,6 +34,9 @@ import Navi from './navigation'
 import Contact from "./contactus";
 import Aboutjs from "./aboutjs";
 import Services from "./Services";
+import HomeScreen from "./models/HomeScreen";
+import Auth from "./models/Auth";
+import Upgrade from "./models/update";
 
 export default class App extends  React.Component{
 
@@ -72,6 +75,11 @@ export default class App extends  React.Component{
         <Route path="/contact" exact component={Contact}/>
         <Route path="/about" exact component={Aboutjs}/>
         <Route path="/service" exact component={Services}/>
+        <Route path="/home" exact component={HomeScreen}/>
+
+        <Route path="/auth" exact component={Auth}/>
+
+        <Route path="/upgrade" exact component={Upgrade}/>
 
 
       </switch>
