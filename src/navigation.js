@@ -70,7 +70,7 @@ export default class Navi extends React.Component{
                            <Link to='/' style={{color:"#fff",textDecoration:"none"}} >
 
 
-                              Homes
+                              Home
                            </Link>
                        </h4>
                    </div>
