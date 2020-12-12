@@ -14,7 +14,7 @@ Medium Ui cloned with Grid layout and dynamic rendering of each component.
 <br>
 
 
-Grid layout on each component (Material UI Used)  
+<h3>Grid layout on each component (Material UI Used)  </h3>
 
 
 
