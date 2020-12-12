@@ -36,8 +36,10 @@ ii) prettier is used intedetion on code.
 
 
 # Made in 
-i) React (ES6)  
-
+![](https://img.shields.io/badge/<Framework>-<React Js>-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)   
+![](https://img.shields.io/badge/<Database>-<Mongo DB>-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/<Storage>-<Firebase>-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/<Backend written in>-<Express js>-informational?style=flat&logo=<LOGO_NAME>&logoColor=white&color=2bbc8a)
 
 
 
