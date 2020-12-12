@@ -1,68 +1,35 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Techronx  
 
-## Available Scripts
+# Clone this application 
+git clone https://github.com/Ayush1011/TechronX   
 
-In the project directory, you can run:
+# Application Content
 
-### `npm start`
+Medium Ui cloned with Grid layout and dynamic rendering of each component.  
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![alt text](https://firebasestorage.googleapis.com/v0/b/virtusa-58806.appspot.com/o/screenshot-localhost_3000-2020.12.12-18_19_12.png?alt=media&token=1d100c62-e854-4a4a-a534-ef225d39b675)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+ 
+Grid layout on each component (Material UI Used)  
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![alt text](https://firebasestorage.googleapis.com/v0/b/virtusa-58806.appspot.com/o/screenshot-material-ui.com-2020.12.12-18_26_02.png?alt=media&token=5715643e-07bb-4ffe-ae16-8a2d40bd7ec2)
 
-### `npm run build`
+i) Each component is structured in Grids and Container.  
+ii) Responsive on each platform(checked)  
+ii) Dynamic component adjust themselves according to the data attained.  
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![alt text](https://firebasestorage.googleapis.com/v0/b/virtusa-58806.appspot.com/o/screenshot-localhost_3000-2020.12.12-18_20_35.png?alt=media&token=88b890fe-57fb-4b11-954f-f6188935e03d)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# Code Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+i) Enlist Styling for structuring the whole code.  
+ii) prettier is used intedetion on code.  
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Made in 
+i) React (ES6)  
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
