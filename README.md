@@ -14,17 +14,19 @@ Medium Ui cloned with Grid layout and dynamic rendering of each component.
 <br>
 
 
-
- 
 Grid layout on each component (Material UI Used)  
 
-![alt text](https://firebasestorage.googleapis.com/v0/b/virtusa-58806.appspot.com/o/screenshot-material-ui.com-2020.12.12-18_26_02.png?alt=media&token=5715643e-07bb-4ffe-ae16-8a2d40bd7ec2)
+
+<img src="https://firebasestorage.googleapis.com/v0/b/virtusa-58806.appspot.com/o/screenshot-material-ui.com-2020.12.12-18_26_02.png?alt=media&token=5715643e-07bb-4ffe-ae16-8a2d40bd7ec2"  align="left" height="500" width="500" >
+
+<img src="https://firebasestorage.googleapis.com/v0/b/virtusa-58806.appspot.com/o/screenshot-localhost_3000-2020.12.12-18_20_35.png?alt=media&token=88b890fe-57fb-4b11-954f-f6188935e03d"  align="right" height="500" width="500" >
+
 
 i) Each component is structured in Grids and Container.  
 ii) Responsive on each platform(checked)  
 ii) Dynamic component adjust themselves according to the data attained.  
 
-![alt text](https://firebasestorage.googleapis.com/v0/b/virtusa-58806.appspot.com/o/screenshot-localhost_3000-2020.12.12-18_20_35.png?alt=media&token=88b890fe-57fb-4b11-954f-f6188935e03d)
+
 
 # Code Structure
 
