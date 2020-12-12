@@ -18,7 +18,7 @@ Grid layout on each component (Material UI Used)
 
 
 
-![alt text](https://firebasestorage.googleapis.com/v0/b/virtusa-58806.appspot.com/o/screenshot-material-ui.com-2020.12.12-18_26_02.png?alt=media&token=5715643e-07bb-4ffe-ae16-8a2d40bd7ec2)
+![alt text](https://firebasestorage.googleapis.com/v0/b/virtusa-58806.appspot.com/o/oie_transparent.png?alt=media&token=d20fd56a-1004-4bb1-9312-27ba8dbc2594)
 
 
 i) Each component is structured in Grids and Container.  
