@@ -8,7 +8,7 @@ git clone https://github.com/Ayush1011/TechronX
 Medium Ui cloned with Grid layout and dynamic rendering of each component.  
 
 
-<a href="url"><img src="https://firebasestorage.googleapis.com/v0/b/virtusa-58806.appspot.com/o/screenshot-localhost_3000-2020.12.12-18_19_12.png?alt=media&token=1d100c62-e854-4a4a-a534-ef225d39b675" align="left" height="500" width="500" ></a>
+<a href="url"><img src="https://firebasestorage.googleapis.com/v0/b/virtusa-58806.appspot.com/o/screenshot-localhost_3000-2020.12.12-18_19_12.png?alt=media&token=1d100c62-e854-4a4a-a534-ef225d39b675" align="left" height="500" width="500" ></a>   
 
 
 
