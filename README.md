@@ -21,9 +21,11 @@ Grid layout on each component (Material UI Used)
 ![alt text](https://firebasestorage.googleapis.com/v0/b/virtusa-58806.appspot.com/o/oie_transparent.png?alt=media&token=d20fd56a-1004-4bb1-9312-27ba8dbc2594)
 
 
-i) Each component is structured in Grids and Container.  
-ii) Responsive on each platform(checked)  
-ii) Dynamic component adjust themselves according to the data attained.   
+I) Each segment is organized in Grids and Container.  
+
+ii) Responsive on every stage (checked)   
+
+ii) Dynamic part change themselves as per the information achieved   
    
       
       
