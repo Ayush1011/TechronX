@@ -28,7 +28,7 @@ I) Each segment is organized in Grids and Container.
 
 ii) Responsive on every stage (checked)   
 
-ii) Dynamic part change themselves as per the information achieved   
+ii) Dynamic part renders themselves as per the information achieved   
    
       
       
