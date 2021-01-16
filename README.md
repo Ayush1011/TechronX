@@ -2,6 +2,7 @@
 
 # Clone this application 
 git clone https://github.com/Ayush1011/TechronX   
+visit:- https://virtusa1.herokuapp.com/
 
 # Application Content
 
