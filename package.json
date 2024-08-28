@@ -31,7 +31,7 @@
     "react-typing-animation": "^1.6.2",
     "reactjs-localstorage": "^1.0.1",
     "reactstrap": "^8.4.1",
-    "webpack": "4.42.0"
+    "webpack": "5.94.0"
   },
   "scripts": {
     "start": "react-scripts start",
